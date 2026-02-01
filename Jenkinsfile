@@ -26,6 +26,7 @@ pipeline {
             steps{
 				echo "Publish code coverage"
 				cobertura coberturaReportFile: 'coverage.xml'
+
             }
         }
     }
